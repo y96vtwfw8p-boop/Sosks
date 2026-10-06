@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phone OSINT</title>
+<style>
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#111;color:#fff}
+main{max-width:700px;margin:auto;padding:28px 18px}
+.box{background:#1c1c1e;border-radius:18px;padding:20px;margin-top:18px}
+input{width:100%;box-sizing:border-box;padding:15px;border:0;border-radius:12px;background:#2c2c2e;color:white;font-size:17px;outline:none}
+button{width:100%;padding:15px;margin-top:12px;border:0;border-radius:12px;background:#fff;color:#111;font-size:17px;font-weight:700}
+.small{color:#aaa;line-height:1.5}
+.links a{display:block;background:#2c2c2e;color:#fff;text-decoration:none;padding:14px;border-radius:12px;margin:9px 0}
+</style>
+</head>
+<body>
+<main>
+<h1>📱 Phone OSINT</h1>
+<p class="small">Поиск по открытым источникам. Не ищет паспорта, слитые базы, закрытые аккаунты или точные домашние адреса.</p>
+
+<div class="box">
+<form action="https://www.google.com/search" method="get" target="_blank">
+<label>Номер телефона</label><br><br>
+<input name="q" type="text" placeholder='+1 555 123 4567' required>
+<button type="submit">🔎 Создать поиск</button>
+</form>
+</div>
+
+<div class="box">
+<h2>Как искать</h2>
+<p class="small">После ввода номера кнопка откроет Google с точным поиском номера. Для дополнительных поисков можно использовать варианты ниже, заменив номер на нужный.</p>
+<div class="links">
+<a href="https://www.google.com/" target="_blank">Google</a>
+<a href="https://www.bing.com/" target="_blank">Bing</a>
+<a href="https://duckduckgo.com/" target="_blank">DuckDuckGo</a>
+</div>
+</div>
+</main>
+</body>
+</html>
